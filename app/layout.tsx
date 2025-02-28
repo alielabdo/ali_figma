@@ -10,8 +10,8 @@ const work_Sans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Figma Clone",
-  description: "A minimalist Figma clone using Fabric.js and Liveblocks for real-time collaboration",
+  title: "Co-op Design",
+  description: "A minimalist design website using Fabric.js and Liveblocks for real-time collaboration",
 };
 
 export default function RootLayout({children,}:Readonly<{children: React.ReactNode;}>) {

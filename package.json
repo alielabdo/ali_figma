@@ -1,7 +1,7 @@
 {
   "name": "figma",
   "version": "0.1.0",
-  "homepage": "https://alielabdo.github.io/ali_figma/",
+  "homepage": "https://alielabdo.github.io/col_design/",
   "private": true,
   "scripts": {
     "dev": "next dev",
