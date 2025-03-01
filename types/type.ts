@@ -1,3 +1,5 @@
+import { BaseUserMeta, User } from "@liveblocks/client";
+
 export enum CursorMode {
   Hidden,
   Chat,
@@ -33,6 +35,12 @@ export type ReactionEvent = {
   x: number;
   y: number;
   value: string;
+};
+
+export type Presence = any;
+
+export type LiveCursorProps = {
+  others: readonly User<Presence, BaseUserMeta>[];
 };
 
 export type CursorChatProps = {
